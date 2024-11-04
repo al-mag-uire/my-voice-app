@@ -1,0 +1,9 @@
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.pyc
+venv/
+
+# Ignore AWS credentials if they are in the project folder
+.aws/
+
+client_secret.json
